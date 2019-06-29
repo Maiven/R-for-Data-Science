@@ -13,3 +13,14 @@ https://kuduz.tistory.com/1077
 
 
 출처: https://kuduz.tistory.com/1077 [kini'n creations]
+
+
+예시 화면
+library('ggplot2') 실행 후
+> ggplot(data=economics, aes(x=date, y=unemploy)) + geom_bar(stat='identity', color='#FFAA00', lwd=1) + geom_hline(yintercept=mean(economics$unemploy), linetype='dashed')
+
+* 모든 것은 R Console 상에서 
+
+
+
+
